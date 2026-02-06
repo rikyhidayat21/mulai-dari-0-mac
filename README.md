@@ -146,6 +146,7 @@ brew install --cask raycast
 
 ```bash
 brew install --cask iterm2
+brew install --cask ghostty
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
