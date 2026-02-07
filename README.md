@@ -86,9 +86,18 @@ Verify:
 mise --version
 ```
 
+Make sure inside ~/.zshrc file this command is exists:
+`eval "$(mise activate)"`
+
+If not, we should add to it.
+
 ---
 
 ## 4. Ruby (Global Latest)
+**Install required system dependencies**
+```bash
+brew install zlib openssl readline libyaml
+```
 
 ```bash
 mise install ruby@latest
